@@ -16,7 +16,7 @@ function App() {
 
   return (
     <div>
-     <div> todo-list:</div>
+     <div> список дел:</div>
       {loading? "Loading..." : ''}
           {todos.map((item) => {
             return (
